@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+  --fondo: #F0F8FF;
+  --texto: #003366;
+  --acento: #4682B4;
+  --sombra: rgba(70, 130, 180, 0.3);
+}
+header{
+    background-color: rgb(100, 100, 201);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+h2{
+    font-size: x-large;
+    text-indent: 50px;
+    text-shadow: 2px 2px 2px gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.tarjeta-producto{
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 15px;
+    padding: 25px;
+    background-color: var(--fondo);
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--sombra);
+}
+
+.fake-imagen{
+    width: 280px;
+    height: 150px;
+    background-color: var(--acento);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.titulo-producto{
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+    color:var(--acento);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.descripcion-producto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin: 10px;
+    color: var(--texto);
+}
+
+.btn-comprar-producto{
+    background-color: var(--acento);
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight:500;
+    color: white;
+}
+
+.btn-comprar-producto:hover{
+    background-color: var(--texto);
+    cursor: pointer;
+    transition: all 0.3s ease;    
+}
+
